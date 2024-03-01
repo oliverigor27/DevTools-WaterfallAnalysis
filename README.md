@@ -20,7 +20,7 @@ Este projeto consiste em uma API em C desenvolvida com o propósito de estudar c
 1. Clone o repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/api-c-performance.git
+   git clone https://github.com/oliverigor27/DevTools-WaterfallAnalysis.git
    ```
 
 2. Compile os arquivos utilizando o compilador de C:
