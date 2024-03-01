@@ -26,7 +26,7 @@ Este projeto consiste em uma API em C desenvolvida com o propósito de estudar c
 2. Compile os arquivos utilizando o compilador de C:
 
    ```bash
-   gcc -o server server.c
+   gcc -o cwebserver cwebserver.c
    gcc -o slow-processing slow-processing.c
    gcc -o slow-download slow-download.c
    ```
@@ -34,7 +34,7 @@ Este projeto consiste em uma API em C desenvolvida com o propósito de estudar c
 3. Execute o servidor base:
 
    ```bash
-   ./server
+   ./cwebserver
    ```
 
 4. Em outro terminal, abra um cliente para enviar requisições:
@@ -51,7 +51,7 @@ Este projeto consiste em uma API em C desenvolvida com o propósito de estudar c
 
    Após enviar a requisição, você receberá a resposta do servidor.
 
-5. Para simular um processamento lento, execute o arquivo `slow-processing` em paralelo com o servidor:
+5. Para simular um processamento lento, execute o arquivo `slow-processing`:
 
    ```bash
    ./slow-processing
@@ -61,7 +61,7 @@ Este projeto consiste em uma API em C desenvolvida com o propósito de estudar c
 
    ![Simulação de Processamento Lento](images/slow-processing.jpg)
 
-6. Para simular um download lento, execute o arquivo `slow-download` em paralelo com o servidor:
+6. Para simular um download lento, execute o arquivo `slow-download`:
 
    ```bash
    ./slow-download
